@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className="min-h-screen flex flex-col justify-between bg-[url('/susans1-transparent.png')]">
       <section>
         <Header />
-        <main className="flex justify-evenly my-4 h-[60vh] space-x-8 mx-8">
+        <main className="flex justify-evenly my-4 h-[60vh] space-x-8 container mx-auto">
           <nav className="2xl:px-4 py-4 2xl:py-8 flex flex-col text-center justify-between text-xl border-2 border-neutral-600 bg-neutral-200 underline">
             <Link href="/about">About Margaret</Link>
             <Link href="/registerofwills">What is a Register of Wills?</Link>
