@@ -15,7 +15,6 @@ const Home: NextPage = () => {
             <Link href="/registerofwills">What is a Register of Wills?</Link>
             <Link href="/whymargaret">Why Elect Margaret?</Link>
             <Link href="/civilservice">Margaret's Civil Service</Link>
-            <Link href="/otherwords">What Others Are Saying</Link>
             <Link href="/contact">Contact Us</Link>
           </nav> 
           <section className="w-5/6 text-center py-8 bg-neutral-200 flex items-center">
