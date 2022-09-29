@@ -14,14 +14,14 @@ const Home: NextPage = () => {
             <Link href="/about">About Margaret</Link>
             <Link href="/registerofwills">What is a Register of Wills?</Link>
             <Link href="/whymargaret">Why Elect Margaret?</Link>
-            <Link href="/civilservice">Margaret's Civil Service</Link>
+            <Link href="/civilservice">Margaret&apos;s Civil Service</Link>
             <Link href="/contact">Contact Us</Link>
           </nav> 
           <section className="w-5/6 text-center py-8 bg-neutral-200 flex items-center">
             <figure className="flex items-center space-x-4 mx-8 max-h-full">
               <img src="/margaret1.jpeg" alt="Margaret Phipps sitting at her desk" className="w-full max-w-[20vw]" />
               <figcaption>
-                <p className="text-3xl italic">"Margaret brings more than 44 years of civil service experience, legal knowledge,  technical expertise, leadership and compassion and genuine caring to the office of Register of Wills."</p>
+                <p className="text-3xl italic">&quot;Margaret brings more than 44 years of civil service experience, legal knowledge,  technical expertise, leadership and compassion and genuine caring to the office of Register of Wills.&quot;</p>
                 <button className="mt-8 text-center">
                   <a> <FacebookIcon className="text-sky-800 text-5xl" /> </a>
                 </button>

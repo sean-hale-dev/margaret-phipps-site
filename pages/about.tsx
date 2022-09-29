@@ -34,7 +34,7 @@ const About: NextPage = () => {
             </article>
 
             <section className="w-1/6 space-y-4" id="image-container">
-              { about_images.map((href, idx) => <img key={idx} src={`/${href}`} className="" />) }
+              { about_images.map((href, idx) => <img key={idx} src={`/${href}`} className="" alt="image of margaret phipps" />) }
             </section>
           </div>
         </section>

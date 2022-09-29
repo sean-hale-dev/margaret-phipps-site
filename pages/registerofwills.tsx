@@ -21,7 +21,7 @@ const RegisterOfWills: NextPage = () => {
             <article className="space-y-8 w-5/6">
               { paragraphs.map((text, idx) => <p key={idx}>{text}</p>) }
             </article>
-            <img src="margaret5.jpeg" className="w-1/6"/>
+            <img src="margaret5.jpeg" className="w-1/6" alt="Image of margaret phipps"/>
           </div>
         </section>
       </div>
