@@ -37,12 +37,12 @@ const RegisterOfWills: NextPage = () => {
             <h2 className='text-3xl mb-8'>Letters of Recommendation</h2>
             <section className='divide-y-2 space-y-4'>
             {
-            letters.map((l) => (<article className='space-y-2'>
+            letters.map((l, idx) => (<article className='space-y-2' key={`letterk${idx}`}>
               <div className='space-y-2'>
-                {l.body.map(p => (<p>{p}</p>))}
+                {l.body.map((p, pidx) => (<p key={`letterk${idx}parakey${pidx}`}>{p}</p>))}
               </div> 
               <div>
-                {l.signature.map(s => <p className='font-bold'>{s}</p>)}
+                {l.signature.map((s, sidx) => <p key={`letterk${idx}sigkey${sidx}`} className='font-bold'>{s}</p>)}
               </div>
             </article>))
           }
